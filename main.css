@@ -1,0 +1,222 @@
+
+
+/* ------------------------------------------------------------ RESET */
+
+
+*,
+*::before,
+*::after {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 10px;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* ---------------------------------------------------------- GENERAL */
+
+
+body {
+	background-color: #FFFFFF;
+	font: 16px -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+	margin: 0 auto;
+}
+
+
+/* ----------------------------------------------------------- HEADER */
+
+
+.header {
+	background-color: #1F2937;
+	display: flex;
+	flex-direction: column;
+	padding: 60px 120px;
+	row-gap: 60px;
+}
+
+.header a {
+	text-decoration: none;
+}
+
+.header a,
+.hero-text p {
+	color: #E5E7EB;
+	font-size: 18px;
+}
+
+.header-top {
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+}
+
+.logo {
+	color: #F9FAF8;
+	font-size: 24px;
+}
+
+.nav ul {
+	align-items: center;
+	column-gap: 15px;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+.hero {
+	align-items: center;
+	column-gap: 60px;
+	display: flex;
+	flex-direction: row;
+}
+
+.hero-text {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+}
+
+.hero-text,
+.hero-image {
+	flex-basis: 50%;
+	flex-shrink: 1;
+}
+
+.hero-text h1 {
+	color: #F9FAF8;
+	font-size: 48px;
+	font-weight: extra-bold;
+}
+
+.hero-btn {
+	background-color: #3882F6;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+
+/* ------------------------------------------------------------- MAIN */
+
+
+main {
+	background-color: #FFFFFF;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 60px 120px;
+	row-gap: 60px;
+}
+
+.info h2 {
+	color: #1F2937;
+	font-size: 36px;
+	font-weight: extra-bold;
+}
+
+.info-cards {
+	align-items: center;
+	column-gap: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+.info-card {
+	flex-basis: 200px;
+	flex-shrink: 0;
+}
+
+.info-box {
+	background-color: #FFFFFF;
+	border: 3px solid #3882F6;
+	border-radius: 15px;
+	height: 200px;
+	margin-bottom: 15px;
+	width: 200px;
+}
+
+.quote {
+	align-items: center;
+	background-color: #E5E7EB;
+	color: #1F2937;
+	display: flex;
+	flex-direction: column;
+	font-size: 36px;
+	padding: 60px 120px;
+}
+
+.quote-text,
+.quote-author {
+	width: 100%;
+}
+
+.quote-text {
+	font-style: italic;
+}
+
+.quote-author {
+	font-weight: bold;
+	text-align:  right;
+}
+
+.call {
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	padding: 60px 120px;
+}
+
+.call-box {
+	align-items: center;
+	background-color: #3882F6;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 60px 120px;
+}
+
+.call-box-left,
+.call-box-right {
+	flex-basis: 50%;
+}
+
+.call-btn {
+	background-color: #3882F6;
+	border: 2px solid #FFFFFF;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+
+
+/* ----------------------------------------------------------- FOOTER */
+
+
+.footer {
+	background-color: #1F2937;
+	color: #FFFFFF;
+	padding: 60px 120px;
+	text-align: center;
+}
